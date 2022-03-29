@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 public class MainActivity2 extends AppCompatActivity {
 
     int REQUEST_CODE_CAMERA = 1111;
