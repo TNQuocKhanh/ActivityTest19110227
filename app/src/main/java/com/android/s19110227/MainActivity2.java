@@ -33,8 +33,14 @@ public class MainActivity2 extends AppCompatActivity {
 
         double TienLai = (soTienGui * laiSuat * kyHan * 30) / 36000;
         double TongTien = TienLai + soTienGui;
-        txtSoTienLai.setText(TienLai + getString(R.string.vnd));
-        txtTongTien.setText(TongTien + getString(R.string.vnd));
+        
+        DecimalFormat formatterTienLai = new DecimalFormat("###,###.###");
+        txtSoTienLai.setText((formatterTienLai.format(TienLai)+" đ").toString());
+        DecimalFormat formatterTongTien = new DecimalFormat("###,###.###");
+        txtTongTien.setText((formatterTongTien.format(TongTien)+" đ"));
+
+//        txtSoTienLai.setText(TienLai + getString(R.string.vnd));
+//        txtTongTien.setText(TongTien + getString(R.string.vnd));
 
         btnTakeAPic.setOnClickListener(new View.OnClickListener() {
             @Override
