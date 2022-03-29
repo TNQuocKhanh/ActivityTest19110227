@@ -41,6 +41,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intentCam = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intentCam, REQUEST_CODE_CAMERA);
+                finish();
             }
         });
     }
