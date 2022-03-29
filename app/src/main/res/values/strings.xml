@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IntentApp19110227</string>
+    <string name="vnd">&#160; đ</string>
+    <string name="textview_title">CÔNG CỤ TÍNH LÃI TIỀN GỬI</string>
+    <string name="txtSoTienGui">Số tiền gửi *</string>
+    <string name="txtNhapSoTienGui">Nhập số tiền gửi</string>
+    <string name="txtLaiSuatGui">Lãi suất gửi *</string>
+    <string name="txtNhapLaiSuat">Nhập lãi suất</string>
+    <string name="txtKyHanGui">Kỳ hạn gửi *</string>
+    <string name="txtNhapKyHanGui">Nhập kỳ hạn gửi</string>
+    <string name="btnXemKQ">XEM KẾT QUẢ</string>
+    <string name="txtSoTienLai">Số tiền lãi nhận được</string>
+    <string name="txtTongSoTien">Tổng số tiền nhận được khi đến hạn</string>
+    <string name="btnTakeAPicture">TAKE A PICTURE</string>
+</resources>
